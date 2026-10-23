@@ -1,0 +1,5 @@
+telethon
+aiohttp
+colorama
+python-dotenv
+solders

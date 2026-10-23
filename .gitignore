@@ -1,0 +1,38 @@
+# Credentials and authenticated Telegram sessions
+.env
+.env.*
+*.env
+!.env.example
+*.session*
+*_session
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Generated research data, backups, reports and databases
+paper_trades*
+pf_analysis_*
+*.log
+*.csv
+*.sqlite*
+*.db
+*.bak
+*.backup
+*.corrupted
+*.restore
+*.tmp
+data/
+backups/
+reports/
+
+# Python and editor state
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
